@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.NativeEsteban"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,8 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
-  }
+    },
+    "sdkVersion": "52.0.0"
+  },
+  "name": "nativeesteban"
 }

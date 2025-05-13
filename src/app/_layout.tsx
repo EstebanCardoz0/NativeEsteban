@@ -3,7 +3,7 @@ import React from "react";
 import { View, Text } from "react-native";
 
 const RootNavigation = () => {
-  const [isLogin, setIsLogin] = React.useState(true);
+  const [isLogin, setIsLogin] = React.useState(false);
   return (
     <>
       <Stack screenOptions={{ headerShown: false }}></Stack>
