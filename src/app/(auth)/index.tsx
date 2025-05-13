@@ -12,18 +12,18 @@ import { router } from "expo-router";
 const Auth = () => {
   const [isLoading, setIsLoading] = React.useState(false);
 
-  let navigateToTermsAgree = () => {
-    router.push("/(auth)/terms_agree");
-  };
+  // let navigateToTermsAgree = () => {
+  //   router.push("/(auth)/terms_agree");
+  // };
 
-  let loadingTimeout = () => {
-    setIsLoading(true);
-    setTimeout( navigateToTermsAgree, 2000);
-  };
+  // let loadingTimeout = () => {
+  //   setIsLoading(true);
+  //   setTimeout( navigateToTermsAgree, 2000);
+  // };
 
-  useEffect(() => {
-    setTimeout(() => loadingTimeout(), 2000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => loadingTimeout(), 2000);
+  // }, []);
 
   return (
     <SafeAreaView style={styles.container}>

@@ -3,11 +3,11 @@ import React from "react";
 import { View, Text } from "react-native";
 
 const RootNavigation = () => {
-  const [isLogin, setIsLogin] = React.useState(false);
+  const [isLogin, setIsLogin] = React.useState(true);
   return (
     <>
       <Stack screenOptions={{ headerShown: false }}></Stack>
-      {isLogin ? <Redirect href="/(main)" /> : <Redirect href="/(auth)" />}
+      {isLogin ? <Redirect href="/(tabs)" /> : <Redirect href="/(auth)" />}
     </>
   );
 };
